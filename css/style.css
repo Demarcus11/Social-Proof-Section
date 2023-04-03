@@ -52,7 +52,7 @@
   }
 }
 
-main {
+.section {
   display: grid;
   gap: 3rem 1rem;
 }
@@ -72,7 +72,7 @@ body {
 }
 
 @media (min-width: 800px) {
-  main {
+  .section {
     grid-template-columns: 1fr 1.5fr;
     text-align: left;
   }
